@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flag Quiz Challenge</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./assets/favicon.png" type="image/png" />
+</head>
+<body>
+  <div class="quiz-box">
+    <h2 class="heading font">Flag Guessing Game 🌍</h2>
+
+    <div class="flag-display">
+      <img id="flag-img" alt="Flag Image" src="" />
+    </div>
+
+    <input
+      type="text"
+      id="user-input"
+      placeholder="Type the country's name..."
+    />
+    <button id="check-btn" class="font">Check Answer</button>
+
+    <p id="feedback"></p>
+    <p id="input-warning"></p>
+
+    <button id="next-btn" class="font">Next Flag ➡️</button>
+
+    <div class="score-board">
+      <h5 class="score-info font">Each correct answer gives 10 points 🎯</h5>
+      <h4 class="score-text">
+        Current Score: <span id="score-value">0</span>
+      </h4>
+    </div>
+  </div>
+
+  <footer>
+    <p class="font">
+      Made with 💚 by <a href="#">Zulqarnain</a> <br />
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
