@@ -1,6 +1,6 @@
 # 🌍 Flag Guessing Game
 
-A fun and interactive web game built with **HTML**, **CSS**, and **JavaScript** where you guess the country based on its flag! 🏳️‍🌈  
+A fun and interactive web game built with **HTML**, **CSS**, and **JavaScript** where you guess the country based on its flag!   
 Test your geography knowledge and score points for every correct answer 🎯
 
 ---
@@ -46,6 +46,4 @@ Through this project, I practiced:
 - Clean and readable code structure  
 
 ---
-
-## 🧱 Folder Structure
 
